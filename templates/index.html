@@ -1,0 +1,23 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Menú Principal</h1>
+        <div class="buttons-container">
+            <form class="button-form" action="/ejercicio1" method="get">
+                <button class="red" type="submit">Ejercicio 1</button>
+            </form>
+            <form class="button-form" action="/ejercicio2" method="get">
+                <button class="green" type="submit">Ejercicio 2</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

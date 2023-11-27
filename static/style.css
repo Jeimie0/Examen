@@ -1,0 +1,116 @@
+/* static/style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.form-container {
+    text-align: center;
+    background-color: #fff; /* Color de fondo de la caja */
+    padding: 20px; /* Espaciado interno de la caja */
+    border-radius: 10px; /* Bordes redondeados de la caja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la caja */
+}
+
+h1 {
+    text-align: center; /* Alinea el texto al centro */
+    margin-bottom: 50px; /* Espacio entre el título y los botones */
+}
+
+.buttons-container {
+    display: flex;
+    margin-bottom: 20px; /* Espacio entre el título y los botones */
+}
+
+.button-form {
+    margin-right: 20px; /* Espacio entre los botones */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 15px; /* Espacio entre las filas del formulario */
+}
+
+label {
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+input {
+    width: 300px; /* Ancho de las barras de entrada */
+    height: 25px; /* Altura de las barras de entrada */
+    border: 1px solid #ccc; /* Borde de las barras de entrada */
+    border-radius: 10px; /* Bordes redondeados de las barras de entrada */
+    padding: 5px; /* Espaciado interno de las barras de entrada */
+}
+
+button, .button-form {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de los botones */
+}
+
+button.small-button {
+    width: 120px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+}
+
+.result-container {
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor de resultados */
+}
+
+button.red {
+    width: 200px;
+    height: 200px;
+    background-color: #B50FB5; /* Color rojo */
+    color: #fff; /* Texto en blanco */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de los botones */
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button.green {
+    width: 200px;
+    height: 200px;
+    background-color: #8BCE21; /* Color verde */
+    color: #fff; /* Texto en blanco */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de los botones */
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
